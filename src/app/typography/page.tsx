@@ -10,32 +10,23 @@ export default function page() {
 
             <div>
               <h3>Family</h3>
-              <p>
-                Use one of these three classes:
-
-                <ul className="font-mono">
-                  <li>font-sans</li>
-                </ul>
-                <ul>
-                  <li>font-serif</li>
-                </ul>
-                <ul>
-                  <li>font-mono</li>
-                </ul>
-              </p>
+              <p>Use one of these three classes:</p>
+              <ul className="font-mono">
+                <li>font-sans</li>
+                <li>font-serif</li>
+                <li>font-mono</li>
+              </ul>
 
               <div>
                 <h4>Example</h4>
                 <p className="font-mono">
                   &lt;p className=&quot;font-serif&quot;&gt;Hello world&lt;/&gt;
                 </p>
-                <p>
-                  <p className="font-serif">Hello world</p>
-                </p>
-
+                <p className="font-serif">Hello world</p>
+                <a href="https://tailwindcss.com/docs/font-family">Reference</a>
               </div>
-
             </div>
+
             <div>
               <h3>Size</h3>
               <p></p>
@@ -62,7 +53,6 @@ export default function page() {
               </div>
             </div>
           </div>
-
         </article>
       </div>
     </>
