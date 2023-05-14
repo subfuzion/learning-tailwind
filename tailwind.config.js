@@ -9,6 +9,8 @@ module.exports = {
     extend: {},
   },
   plugins: [
+    // Added plugin to make it easy to add text (comments) about
+    // Tailwind without having to style everything from scratch.
     require('@tailwindcss/typography'),
   ],
 };
