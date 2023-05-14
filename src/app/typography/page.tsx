@@ -1,4 +1,4 @@
-export default function page() {
+export default function Typography() {
   return (
     <>
       <div className="container mx-auto">
